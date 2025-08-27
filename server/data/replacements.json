@@ -1,0 +1,16 @@
+[
+    {
+        "label": {
+            "ar": "قائمة قطع الغيار السنوية",
+            "en": "Annual Spare Parts List"
+        },
+        "value": "replacement_spare_parts"
+    },
+    {
+        "label": {
+            "ar": "قد تكون هناك حاجة لاستبدال إضافي للعناصر أو الكميات",
+            "en": "Extra replacement for items or Quantities may be required"
+        },
+        "value": "replacement_extra_process"
+    }
+]

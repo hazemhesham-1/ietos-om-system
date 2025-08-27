@@ -1,0 +1,74 @@
+[
+    {
+        "label": {
+            "en": "Pumps",
+            "ar": "المضخات"
+        },
+        "description": {
+            "en": "Move water through the treatment process",
+            "ar": "نقل المياه خلال عملية المعالجة"
+        },
+        "value": "pumps",
+        "fields": ["quantity", "unit", "type", "price", "flow", "head", "casingMaterial", "shaftMaterial", "impellerMaterial", "valves", "protection", "manufacturer", "origin"]
+    },
+    {
+        "label": {
+            "en": "Aeration Systems",
+            "ar": "أنظمة التهوية"
+        },
+        "description": {
+            "en": "Supply oxygen to biological treatment processes",
+            "ar": "توفير الأكسجين لعمليات المعالجة البيولوجية"
+        },
+        "value": "aeration-systems",
+        "fields": ["quantity", "unit", "type", "price", "flow", "headPressure", "size", "manufacturer", "origin"]
+    },
+    {
+        "label": {
+            "en": "Filtration Systems",
+            "ar": "أنظمة الترشيح"
+        },
+        "description": {
+            "en": "Remove suspended solids and contaminants",
+            "ar": "إزالة المواد الصلبة العالقة والملوثات"
+        },
+        "value": "filtration-systems",
+        "fields": ["quantity", "unit", "type", "price", "diameter", "height", "flow", "pressure", "casingMaterial", "manufacturer", "origin"]
+    },
+    {
+        "label": {
+            "en": "Membrane Systems",
+            "ar": "أنظمة الأغشية"
+        },
+        "description": {
+            "en": "Remove fine particles and dissolved salts",
+            "ar": "إزالة الجزيئات الدقيقة والأملاح الذائبة"
+        },
+        "value": "membrane-systems",
+        "fields": ["quantity", "unit", "price", "flow", "pressure", "poreSize", "temperature", "manufacturer", "origin"]
+    },
+    {
+        "label": {
+            "en": "Control Systems",
+            "ar": "أنظمة التحكم"
+        },
+        "description": {
+            "en": "Monitor, control, and automate plant operations",
+            "ar": "مراقبة، وتحكم، وأتمتة عمليات المحطة"
+        },
+        "value": "control-systems",
+        "fields": ["quantity", "unit", "type", "price", "model", "protection", "manufacturer", "origin"]
+    },
+    {
+        "label": {
+            "en": "Disinfection Systems",
+            "ar": "أنظمة التعقيم"
+        },
+        "description": {
+            "en": "Kill pathogens and ensure treated water is safe",
+            "ar": "قتل مسببات الأمراض وضمان سلامة المياه المعالجة"
+        },
+        "value": "disinfection-systems",
+        "fields": ["quantity", "unit", "type", "price", "capacity", "protection", "manufacturer", "origin"]
+    }
+]

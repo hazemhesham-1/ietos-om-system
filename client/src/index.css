@@ -1,0 +1,98 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+    --radius: 0.625rem;
+    --background: #FFF;
+    --foreground: #0A0A0A;
+    --muted-foreground: #737373;
+
+    --primary-50: #EEF7FF;
+    --primary-100: #DAEDFF;
+    --primary-200: #BDE0FF;
+    --primary-300: #8FCDFF;
+    --primary-400: #5AAFFF;
+    --primary-500: #348EFD;
+    --primary-600: #1E6FF2;
+    --primary-700: #1659DF;
+    --primary-800: #1948B4;
+    --primary-900: #1C4599;
+    --primary-950: #152856;
+
+    --accent-50: #F1FCF9;
+    --accent-100: #CFF8EB;
+    --accent-200: #9FF0D7;
+    --accent-300: #68E0C0;
+    --accent-400: #3BC9A8;
+    --accent-500: #1FAD8E;
+    --accent-600: #168B74;
+    --accent-700: #166F5F;
+    --accent-800: #16594D;
+    --accent-900: #174A41;
+    --accent-950: #072C27;
+
+    --destructive: #E7000B;
+    --border: #E5E5E5;
+    --input: #E5E5E5;
+    --ring: #A1A1A1;
+    --chart-1: #F54A00;
+    --chart-2: #009689;
+    --chart-3: #104E64;
+    --chart-4: #FFBA00;
+    --chart-5: #FD9A00;
+}
+
+@theme inline {
+    --radius-sm: calc(var(--radius) - 4px);
+    --radius-md: calc(var(--radius) - 2px);
+    --radius-lg: var(--radius);
+    --radius-xl: calc(var(--radius) + 4px);
+
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --color-muted-foreground: var(--muted-foreground);
+    
+    --color-primary-50: var(--primary-50);
+    --color-primary-100: var(--primary-100);
+    --color-primary-200: var(--primary-200);
+    --color-primary-300: var(--primary-300);
+    --color-primary-400: var(--primary-400);
+    --color-primary-500: var(--primary-500);
+    --color-primary-600: var(--primary-600);
+    --color-primary-700: var(--primary-700);
+    --color-primary-800: var(--primary-800);
+    --color-primary-900: var(--primary-900);
+    --color-primary-950: var(--primary-950);
+
+    --color-accent-50: var(--accent-50);
+    --color-accent-100: var(--accent-100);
+    --color-accent-200: var(--accent-200);
+    --color-accent-300: var(--accent-300);
+    --color-accent-400: var(--accent-400);
+    --color-accent-500: var(--accent-500);
+    --color-accent-600: var(--accent-600);
+    --color-accent-700: var(--accent-700);
+    --color-accent-800: var(--accent-800);
+    --color-accent-900: var(--accent-900);
+    --color-accent-950: var(--accent-950);
+
+    --color-destructive: var(--destructive);
+    --color-border: var(--border);
+    --color-input: var(--input);
+    --color-ring: var(--ring);
+
+    --color-chart-1: var(--chart-1);
+    --color-chart-2: var(--chart-2);
+    --color-chart-3: var(--chart-3);
+    --color-chart-4: var(--chart-4);
+    --color-chart-5: var(--chart-5);
+}
+
+@layer base {
+    * {
+        @apply border-border outline-ring/50;
+    }
+    body {
+        @apply bg-background text-foreground;
+    }
+}

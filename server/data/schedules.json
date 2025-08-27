@@ -1,0 +1,23 @@
+[
+    {
+        "label": {
+            "ar": "الجداول اليومية",
+            "en": "Daily reports"
+        },
+        "value": "schedule_daily"
+    },
+    {
+        "label": {
+            "ar": "الجداول الأسبوعية",
+            "en": "Weekly reports"
+        },
+        "value": "schedule_weekly"
+    },
+    {
+        "label": {
+            "ar": "الجداول الشهرية",
+            "en": "Monthly reports"
+        },
+        "value": "schedule_monthly"
+    }
+]
